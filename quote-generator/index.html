@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">This is a text quote to help build the app.</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Alex Reid</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="button twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-quote">New Quote</button>
+        </div>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>
